@@ -1,0 +1,252 @@
+@media(max-width:1010px){
+  .header{
+    padding-top: 14px;
+    .header__wrapper{
+      justify-content: space-around;
+      .header__w-right{
+        margin-top: 20px;
+      }
+    }
+  }
+  .card{
+    .card__wrapper{
+      justify-content: space-around;
+    }
+  }
+
+  .footer{
+    .footer__wrapper{
+      padding: 0 80px;
+      .footer__left{
+        .footer__logo{
+          margin-right: 20px;
+        }
+      }
+      .footer__right{
+        .footer__mail{
+          margin-right: 20px ;
+        }
+        .footer__social+.footer__social{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media(max-width:857px){
+  .sub-header{
+    .sub-header__wrapper{
+      align-items: flex-start;
+      flex-direction:column;
+      padding: 0 40px;
+      .sub-header__mid{
+        margin-top: 20px;
+        width: 100%;
+        .sub-header__title{
+          text-align: center;
+          
+        }
+        
+      }
+      .sub-header__right{
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .footer{
+    .footer__wrapper{
+      justify-content: center;
+      .footer__right{
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+
+@media(max-width:700px){
+  .header{
+    .header__wrapper{
+      .header__w-left{
+        .header__logo{
+          width: 260px;
+          height: 39px;
+          img{
+            width: 260px;
+            height: 39px;
+          }
+        }
+      }
+      .header__w-mid{
+        margin-top: 20px;
+      }
+    }
+  }
+  .footer{
+    .footer__wrapper{
+      padding: 0 40px;
+    }
+  }
+}
+
+
+
+@media(max-width:550px){
+  .header{
+    .header__wrapper{
+      .header__w-mid{
+        .header__menu-mid{
+          .header__list-mid{
+            li{
+              width: 49%;
+              margin: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .table{
+    padding-top: 30px;
+    .table__wrapper{
+      padding: 20px 0 10px;
+      .table__row{
+        padding: 6px 10px;
+        .table__column{
+          .table__column-title{
+            font-size: 10px;
+            line-height: 10px;
+          }
+          .table__column-text{
+            font-size: 10px;
+            line-height: 10px;
+          }
+          .table__column-name{
+            img{
+              width: 24px;
+              height: 24px;
+            }
+            div{
+              margin-left: 4px;
+            }
+          }
+          .table__column-status{
+            font-size: 10px;
+            line-height: 10px;
+          }
+        }
+        .table__column-1{
+          flex: 1 1 300px;
+        }
+        .table__column-2{
+          flex: 0 1 200px;
+        }
+        .table__column-3{
+          flex: 0 1 200px;
+        }
+        .table__column-4{
+          flex: 0 1 200px;
+        }
+      }
+      .table__row-footer{
+        padding-top: 10px;
+        .table__row-footer-text{
+          font-size: 10px;
+          line-height: 10px;
+        }
+        .table__row-footer-left{
+          .table__row-footer-arrow-down{
+            position: relative;
+            margin-left: 2px;
+            padding-right: 12px;
+          }
+        }
+        .table__row-footer-right{
+          .table__row-footer-arrow-left{
+            margin-left: 25px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer{
+    padding-top: 50px;
+    .footer__wrapper{
+      padding: 0;
+    }
+  }
+}
+
+
+
+@media(max-width:380px){
+  .header{
+    .header__wrapper{
+      .header__w-mid{
+        .header__menu-mid{
+          .header__list-mid{
+            li{
+              font-size: 15px;
+              line-height: 20px;
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sub-header{
+    .sub-header__wrapper{
+      padding: 0;
+      .sub-header__mid{
+        margin-top: 20px;
+        width: 100%;
+        .sub-header__title{
+          text-align:left;
+          
+        }
+        
+      }
+      .sub-header__right{
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .table{
+    .table__wrapper{
+      padding: 20px 0 10px;
+      .table__row{
+        padding: 6px 10px;
+      }
+      .table__row-footer{
+        padding: 10px 6px 0;
+        .table__row-footer-text{
+          font-size: 10px;
+          line-height: 10px;
+        }
+        .table__row-footer-left{
+          .table__row-footer-arrow-down{
+            margin-left: 0;
+            padding-right: 10px;
+          }
+        }
+        .table__row-footer-right{
+          .table__row-footer-arrow-left{
+            margin-left: 4px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
